@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/message/index.html</loc>
+    <loc>https://net.kemeow.cnx/posts/16107.html</loc>
     
     <lastmod>2025-03-25</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/about/index.html</loc>
+    <loc>https://net.kemeow.cnx/message/index.html</loc>
     
     <lastmod>2025-03-25</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/friends/index.html</loc>
+    <loc>https://net.kemeow.cnx/about/index.html</loc>
     
     <lastmod>2025-03-25</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/shuoshuo/index.html</loc>
+    <loc>https://net.kemeow.cnx/friends/index.html</loc>
     
     <lastmod>2025-03-25</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/search/index.html</loc>
+    <loc>https://net.kemeow.cnx/shuoshuo/index.html</loc>
     
     <lastmod>2025-03-25</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>https://net.kemeow.cnx/search/index.html</loc>
     
     <lastmod>2025-03-25</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/archives/index.html</loc>
+    <loc>https://net.kemeow.cnx/categories/index.html</loc>
     
     <lastmod>2025-03-25</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>https://net.kemeow.cnx/archives/index.html</loc>
     
     <lastmod>2025-03-25</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2025/03/25/hello-world/</loc>
+    <loc>https://net.kemeow.cnx/tags/index.html</loc>
     
     <lastmod>2025-03-25</lastmod>
     
@@ -84,13 +84,27 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://net.kemeow.cnx/</loc>
     <lastmod>2025-03-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
+  <url>
+    <loc>https://net.kemeow.cnx/tags/Hexo/</loc>
+    <lastmod>2025-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://net.kemeow.cnx/categories/Hexo/</loc>
+    <lastmod>2025-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>

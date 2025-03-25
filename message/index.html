@@ -40,7 +40,7 @@
     <meta name="description" content="🎉 欢迎来到我的小天地！这里是一个畅所欲言的角落，无论你是： 🤔 有编程问题想请教💡 想分享有趣的想法🌟 发现了什么好玩的事情👋 或者只是想来打个招呼都欢迎在下方留言！我会认真回复每一条留言，让我们一起交流，共同进步~ 记得文明发言哦 (●’◡’●)">
 <meta property="og:type" content="website">
 <meta property="og:title" content="留言板">
-<meta property="og:url" content="http://example.com/message/index.html">
+<meta property="og:url" content="https://net.kemeow.cnx/message/index.html">
 <meta property="og:site_name" content="克喵🐱の小筑">
 <meta property="og:description" content="🎉 欢迎来到我的小天地！这里是一个畅所欲言的角落，无论你是： 🤔 有编程问题想请教💡 想分享有趣的想法🌟 发现了什么好玩的事情👋 或者只是想来打个招呼都欢迎在下方留言！我会认真回复每一条留言，让我们一起交流，共同进步~ 记得文明发言哦 (●’◡’●)">
 <meta property="og:locale" content="zh_CN">
@@ -74,7 +74,9 @@
 
     <!-- custom head -->
 
-<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="克喵🐱の小筑" type="application/atom+xml">
+<meta name="generator" content="Hexo 7.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="克喵🐱の小筑" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="克喵🐱の小筑" type="application/rss+xml">
 </head>
 
@@ -216,7 +218,7 @@
     </script>
 </div>
     <div class="post__content">
-        <blockquote>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"><blockquote>
 <p>🎉 欢迎来到我的小天地！这里是一个畅所欲言的角落，无论你是：</p>
 <p>🤔 有编程问题想请教<br>💡 想分享有趣的想法<br>🌟 发现了什么好玩的事情<br>👋 或者只是想来打个招呼<br>都欢迎在下方留言！我会认真回复每一条留言，让我们一起交流，共同进步~ 记得文明发言哦 (●’◡’●)</p>
 </blockquote>
@@ -229,6 +231,29 @@
 
 
 
+
+    <div class="post__comments post__with-toc content-card" id="comment">
+        
+    <h4>评论</h4>
+    
+    
+    
+    
+    
+    
+    <div id="gitalk-container"></div>
+
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    </div>
 
 
 
@@ -359,7 +384,71 @@
  
 
 
+    
+
+    
+
+    
+    
+
+    
+    
+    
+    <script>
+        function loadComment() {
+            let e, i;
+            (e = document.createElement("script")).src = 'https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js',
+            document.body.appendChild(e);
+            e.onload = () => {
+                var gitalk = new Gitalk({
+                    clientID: 'Ov23liUeESrMXnNvmQGX',
+                    clientSecret: 'ed687561f3ccf791b8225b9bcf9fcd3b3daa71ea',
+                    repo: 'hexo-cards-kemiao',
+                    owner: 'Kemeow815',
+                    admin: 'Kemeow815',
+                    id: 'message/index.html',
+                    distractionFreeMode: false
+                });
+                gitalk.render('gitalk-container');
+            };
+            (i = document.createElement("link")).rel = "stylesheet",
+            i.href = 'https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css',
+            document.head.appendChild(i);
+        }
+    
+        var runningOnBrowser = typeof window !== "undefined";
+        var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
+        var supportsIntersectionObserver = runningOnBrowser && "IntersectionObserver" in window;
+    
+        setTimeout(function () {
+            if (!isBot && supportsIntersectionObserver) {
+                var comment_observer = new IntersectionObserver(function(entries) {
+                    if (entries[0].isIntersecting) {
+                        loadComment();
+                        comment_observer.disconnect();
+                    }
+                }, { threshold: [0] });
+                comment_observer.observe(document.getElementById('comment'));
+            } else {
+                loadComment();
+            }
+        }, 1);
+    </script>
 
 
-    </body>
-</html>
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+
+
+    <script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
