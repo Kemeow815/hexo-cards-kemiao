@@ -83,7 +83,7 @@
             <header class="header">
     <div class="header__left">
         <a href="/" class="button">
-            <span class="logo__text">克喵爱吃卤面</span>
+            <span class="logo__text">克喵🐱の小筑</span>
         </a>
     </div>
     <div class="header__right">
@@ -105,6 +105,8 @@
                     <a href="/message/" class="navbar-menu button">留言板</a>
                 
                     <a href="/about/" class="navbar-menu button">关于</a>
+                
+                    <a target="_blank" rel="noopener" href="https://montor.kemeow.cn/" class="navbar-menu button">网站监控</a>
                 
             </div>
         
@@ -141,6 +143,8 @@
                     <a href="/message/" class="dropdown-menu button">留言板</a>
                 
                     <a href="/about/" class="dropdown-menu button">关于</a>
+                
+                    <a target="_blank" rel="noopener" href="https://montor.kemeow.cn/" class="dropdown-menu button">网站监控</a>
                 
             </div>
         
@@ -189,6 +193,8 @@
             <span>站点访问量</span>
             <span id="busuanzi_value_site_uv"></span>
             <span>Viewers</span>
+            
+                <span>&amp;nbsp;&amp;nbsp;&amp;nbsp;|</span>
             
         </span>
     
@@ -306,47 +312,6 @@
     
     
     
-    <script>
-        function loadComment() {
-            let e, i;
-            (e = document.createElement("script")).src = 'https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js',
-            document.body.appendChild(e);
-            e.onload = () => {
-                var gitalk = new Gitalk({
-                    clientID: 'Ov23liUeESrMXnNvmQGX',
-                    clientSecret: 'ed687561f3ccf791b8225b9bcf9fcd3b3daa71ea',
-                    repo: 'hexo-cards-kemiao',
-                    owner: 'Kemeow815',
-                    admin: 'Kemeow815',
-                    id: 'shuoshuo/index.html',
-                    distractionFreeMode: false
-                });
-                gitalk.render('gitalk-container');
-            };
-            (i = document.createElement("link")).rel = "stylesheet",
-            i.href = 'https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css',
-            document.head.appendChild(i);
-        }
-    
-        var runningOnBrowser = typeof window !== "undefined";
-        var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
-        var supportsIntersectionObserver = runningOnBrowser && "IntersectionObserver" in window;
-    
-        setTimeout(function () {
-            if (!isBot && supportsIntersectionObserver) {
-                var comment_observer = new IntersectionObserver(function(entries) {
-                    if (entries[0].isIntersecting) {
-                        loadComment();
-                        comment_observer.disconnect();
-                    }
-                }, { threshold: [0] });
-                comment_observer.observe(document.getElementById('comment'));
-            } else {
-                loadComment();
-            }
-        }, 1);
-    </script>
-
 
     
     
@@ -363,4 +328,5 @@
 
 
 
-    <script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
+    </body>
+</html>
