@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>克喵🐱の小筑</title>
-  <icon>https://net.kemeow.cnx/icon.png</icon>
+  <icon>https://net.kemeow.cn/icon.png</icon>
   <subtitle>Ke Miao Blog</subtitle>
-  <link href="https://net.kemeow.cnx/atom.xml" rel="self"/>
+  <link href="https://net.kemeow.cn/atom.xml" rel="self"/>
   
-  <link href="https://net.kemeow.cnx/"/>
+  <link href="https://net.kemeow.cn/"/>
   <updated>2025-03-25T12:55:32.243Z</updated>
-  <id>https://net.kemeow.cnx/</id>
+  <id>https://net.kemeow.cn/</id>
   
   <author>
     <name>克喵爱吃卤面</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://net.kemeow.cnx/posts/16107.html"/>
-    <id>https://net.kemeow.cnx/posts/16107.html</id>
+    <link href="https://net.kemeow.cn/posts/16107.html"/>
+    <id>https://net.kemeow.cn/posts/16107.html</id>
     <published>2025-03-25T08:56:45.986Z</published>
     <updated>2025-03-25T12:55:32.243Z</updated>
     
@@ -34,10 +34,10 @@
     
     
     
-    <category term="Hexo" scheme="https://net.kemeow.cnx/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://net.kemeow.cn/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="https://net.kemeow.cnx/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://net.kemeow.cn/tags/Hexo/"/>
     
   </entry>
   
